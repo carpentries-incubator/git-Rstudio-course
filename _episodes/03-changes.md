@@ -1,27 +1,27 @@
 ---
 title: "Commit changes"
-teaching: 0
-exercises: 0
+teaching: 5
+exercises: 10
 questions:
-- "Key question"
+- "How to describe the steps in a project?"
 objectives:
-- "Create a repository on GitHub"
-- "Understand the options about README, license and .gitignore"
+- "Add and commit new code to the repository."
 keypoints:
-- "First key point."
+- "A commit is a snapshot of the project with a user defined commit message"
+- "Commit often!"
 ---
 
 ## Add file and commit changes
 
-### Commit changes to `gitignore`
+In Git, changes are tracked by taking snapshots of the project folder, triggered by the user. A snapshot is taken by a `commit`, which is combined with a user defined `commit message`. It logs the username, date/time and defines the changes with the previous commit (added and removed lines/files).
 
-In Git, changes are tracked by taking snapshots of the project folder, triggered by the user. A snapshot is taken by a `commit`, which is combined with a user defined `commit message`. It logs the user and date/time and defines the changes with the previous commit (added and removed lines/files).
+### Commit changes of a `.gitignore` file
 
-In the previous episode, a  `.gitignore` file was created. The status of the `.gitignore` file before the file is added to the Git history is clarified with the yellow question mark saying that the file is yet unknown to Git:
+In the previous episode, a  `.gitignore` file was created, but this file itself is new and not yet part of version control. The status of the `.gitignore` file before the file is added to the Git history is clarified with the yellow question mark defining that the file is yet unknown to Git:
 
 ![Local commit]({{ page.root }}/fig/commit-rstudio1.png)
 
-By checking the box and clicking commit, we add the file and can commit this addition with a commit message:
+By checking the box and clicking commit, we add the file and are able to commit this addition with a commit message:
 
 ![Local commit]({{ page.root }}/fig/commit-rstudio2.png)
 
@@ -40,19 +40,19 @@ We get a small technical overview of the alterations we provided with this commi
 
 ### Provide project info in README
 
-It is good practice to commit often, so you will do this a lot. Each commit should only contain changes related to a single problem/element/… Each commit is a snapshot of your project and the messages describe the new ste taken in your project.
+It is good practice to commit often, so you will do this a lot. Each commit should only contain changes related to a single problem/element/… Each commit is a snapshot of your project and the messages describe the new steps taken in your project.
 
-As documentation is crucial, providing some more information in the README.md file will help others (and yourself in a couple of months/years) to understand the aim of the project. Just as we adapted the  README.md file online earlier, we can do the same locally.
+As documentation is crucial, providing some more information in the README.md file will help others (and yourself in a couple of months/years) to understand the aim of the project. Just as we adapted the `README.md` file online earlier, we can do the same locally.
 
-> ## Update the README of the project
+> ## Update the `README.md` of the project
 > 
-> 1. Update the README.md inside Rstudio
-> 2. Commit your changes
+> 1. Update the `README.md` inside Rstudio
+> 2. Commit your changes in Rstudio
 {: .challenge}
 
-### Add new files
+## Project structure
 
-During a project, new files will be added to the project folder, which need to be version controlled as well. New directories and files can be added and committed, just like any other adaptation.
+During a project, new files are added to the project folder, which need to be version controlled as well. New directories and files can be added and committed, just as we did before.
 
 Remark that we aim to have a clean directory structure in our projects with the data, scripts and output figures separated, for example:
 
@@ -66,9 +66,9 @@ By clicking the box next to a file, the file is staged (i.e. ready to be committ
 
 > ## Add data file to the project
 > 
-> 1. Add the  surveys.csv file in a /data subdirectory
-> 2. Link to this file in the README.md (use relative paths), mentioning the purpose of the file
-> 3. Commit both changes (new data file and the README.md adaptation) in a single commit message
+> 1. Add the  `surveys.csv` file in a `/data` subdirectory
+> 2. Link to this file in the `README.md` (use relative paths), mentioning the purpose of the file
+> 3. Commit both changes (new data file and the `README.md` adaptation) in a single commit message
 > 4. Add and commit an R script as well, but put this into the `scripts` directory.
 {: .challenge}
 
@@ -90,9 +90,11 @@ and `xyz` can be
 - a `selection` of lines
 - a `chunk`
     - RStudio will automatically split the changes in chunks
-    - chunks are defined by 10 unchanged lines between changes
+    - Chunks are defined by 10 unchanged lines between changes
 
 > ## `commit`  guidelines
+> 
+> Some guidelines to write nice commits:
 > 
 > 1. Limit the subject message to 50 characters 
 > 2. Capitalize the subject message line 
