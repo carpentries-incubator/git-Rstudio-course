@@ -1,5 +1,5 @@
 ---
-title: "Creating a repository online"
+title: "Creating a repository"
 teaching: 0
 exercises: 0
 questions:
