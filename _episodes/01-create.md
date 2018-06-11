@@ -58,7 +58,8 @@ An example of the project setup using an existing Git repository:
 
 ![Clone a repo in RStudio]({{ page.root }}/fig/create-project-rstudio.png)
 
-> ##
+> ## 
+> 
 > In your File explorer, search for your project folder and check the content. Does this corresponds to what is shown online on your repository website?
 {: .challenge}
 
