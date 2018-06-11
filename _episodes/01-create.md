@@ -15,7 +15,7 @@ keypoints:
 
 When working on a project, one typically uses a project folder to contain the project files, scripts and data. In GitHub, such a project folder is called a repository. Hence, a new project starts with a new repository. First of all, you need to sign in to Github [GitHub.com](https://github.com/login):
 
-![GitHub login]({{ page.root }}/fig/github-login.png)
+![GitHub login]({{ page.root }}/fig/github-login.png){width=50%}
 
 a new repository or project can be setup:
 
