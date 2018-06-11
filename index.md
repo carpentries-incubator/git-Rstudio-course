@@ -8,5 +8,5 @@ Researchers working with R do write code and benefit from using version control.
 
 > ## Prerequisites
 >
-> Having R, git and RStudio installed (though see the setup section for installation instructions)
+> Having R, git and RStudio installed (though see the setup section for installation instructions) and a [Github account](https://github.com/).
 {: .prereq}
