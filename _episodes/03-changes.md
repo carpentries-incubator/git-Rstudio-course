@@ -92,6 +92,15 @@ and `xyz` can be
     - RStudio will automatically split the changes in chunks
     - chunks are defined by 10 unchanged lines between changes
 
+> ## `commit`  guidelines
+> 
+> 1. Limit the subject message to 50 characters 
+> 2. Capitalize the subject message line 
+> 3. Do not end the subject message with a period 
+> 4. Use the imperative mood in the subject line
+> 5. Use the body to explain what and why vs. how
+{: .callout}
+
 > ## Make logical commits
 > 
 > 1. Make 2 unrelated changes to your R script
@@ -109,7 +118,7 @@ and `xyz` can be
 
 
 
- 
+
 
 
 
