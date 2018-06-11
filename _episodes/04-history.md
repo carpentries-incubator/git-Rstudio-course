@@ -1,14 +1,13 @@
 ---
 title: "History of a project"
-teaching: 0
-exercises: 0
+teaching: 5
+exercises: 5
 questions:
-- "Key question"
+- "How to trace the story of your project?"
 objectives:
-- "Create a repository on GitHub"
-- "Understand the options about README, license and .gitignore"
+- "Check the changes of each commit in the commit history"
 keypoints:
-- "First key point."
+- "Click history in the Git pane to see the project history"
 ---
 
 ## The story of your project
@@ -21,7 +20,7 @@ In Rstudio, click on `history` in the Git pane:
 
 > ## Git history versus command history
 >
-> Notice the presence of `History` twice in the following image: 
+> Notice the presence of `History` twice in the previous image: 
 >    - As a separate pane (your R command history): this has nothing to do with Git
 >    - Within the `Git` pane (the history of your commit messages)
 {: .callout}
