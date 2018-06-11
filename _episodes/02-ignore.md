@@ -24,7 +24,8 @@ Some other options of files you probably want to ignore:
 
 Hence, we can ignore the `myprojectname.Rproj` file by adding the file to the `.gitignore` text-file. We can do this inside Rstudio.
 
-> ##
+> ## Ignore a file
+> 
 > 1. Go to `git` pane (the tab that says Git), 
 > 2. right click on `....Proj` and select `Ignore...`
 > 3. Check if the content of `.gitignore` is correctly updated and click `Save`.
@@ -34,7 +35,8 @@ Check the content of the `.gitignore` file. If satisfied, click `Save`:
 
 ![Update .gitignore]({{ page.root }}/fig/gitignore-rstudio2.png)
 
-> ##
+> ## Use wildcards to ignore multiple files
+> 
 > Note that you can use wild cards e.g. `*.Rproj` to exclude a group of files from the version control.
 {: .callout}
 
