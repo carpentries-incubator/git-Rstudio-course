@@ -32,6 +32,7 @@ When creating a repository, some elements need to be defined:
 5. .gitignore: This file describes what kind of files that should not be tracked. For the moment, you have not to select this and keep it on None as we will use Rstudio to provide the `.gitignore`.
 6. LICENSE: for scientific work, a BSD or MIT license are most appropriate. Check the [choose a license website](https://choosealicense.com/) for more information on open source licenses. 
 
+> ##
 > 1. Go to [GitHub](https://github.com) and login
 > 2. Follow [this tutorial](https://help.github.com/articles/create-a-repo/) to create a repo and > [create your first (online) commit](https://help.github.com/articles/create-a-repo/#commit-your-first-change) to your repository
 {: .challenge}
@@ -40,6 +41,7 @@ When creating a repository, some elements need to be defined:
 
 We have initiated a repository online and a working Git within Rstudio. Hence, we can start working on the code locally by downloading the repository to our computer. Rstudio provides a convenient way to start a new project as a Git repository.
 
+> ##
 > 1. On your GitHub repository page, copy the repository **HTTPS** url (*remember the green button?*)
 > 2. In Rstudio, `File > New Project...`, select `Version Control`, choose `Git`
 > 3. Provide the repository HTTPS link you just copied (the project name will be filled in as well)
@@ -54,6 +56,7 @@ An example of the project setup using an existing Git repository:
 
 ![Clone a repo in RStudio]({{ page.root }}/fig/create-project-rstudio.png)
 
+> ##
 > In your File explorer, search for your project folder and check the content. Does this corresponds to what is shown online on your repository website?
 {: .challenge}
 
