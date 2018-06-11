@@ -29,6 +29,9 @@ If you do not know where Git is installed, open your command line (`cmd` in Star
 Next, we have to tell Github who we actually are, in order to make the connection to the online account. To do so, Git requires the configuration of your Github (!) username and GitHub email:
 
 1. Go to `Tools > Shell` to open the Git Shell
+
+   ![RStudio setup git shell]({{ page.root }}/fig/Rstudio-GitShell.png)
+
 1. In the shell, type the following command and enter:
 ```
 git config --global user.name "mygithubusername"
@@ -37,8 +40,6 @@ git config --global user.name "mygithubusername"
 ```
 git config --global user.email "my.name@inbo.be"
 ```
-
-![RStudio setup git shell]({{ page.root }}/fig/Rstudio-GitShell.png)
 
 > ## Github configuration check
 >
