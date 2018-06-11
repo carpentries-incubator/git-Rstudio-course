@@ -3,7 +3,7 @@ title: Setup
 ---
 
 
-In order to start using version control in Rstudio, we have to do some configuration the first time. You only leed to do this configuration once.
+In order to start using version control in Rstudio, we have to do some configuration the first time. You only need to do this configuration once.
 
 ## Installations
 
@@ -17,10 +17,14 @@ First of all, tell RStudio where to find the Git installation.
 1. Go to `Tools > Global Options`
 1. Click on `Git/SVN`.
 1. Check *Enable version control interface for RStudio projects*
-1. Set the path to the Git executable that you installed*
+1. Set the path to the Git executable that you installed
 1. Check *use Git bash as shell for Git projects*
 
-If you do not know where Git is installed, open your command line (`cmd` in Start for Windows user). When the cmd is open, type `where git` and hit enter. The path should be something like: `C:/Program Files (x86)/Git/bin/git.exe`. Still in trouble? Check [this out](http://happygitwithr.com/rstudio-see-git.html#tell-rstudio-where-to-find-git).
+> ## Git installation path
+>
+> If you do not know where Git is installed, open your command line (`cmd` in Start for Windows user). When the cmd is open, type `where git` and hit enter. The path should be something like: `C:/Program Files (x86)/Git/bin/git.exe`. Still in trouble? Check [this out](http://happygitwithr.com/rstudio-see-git.html#tell-rstudio-where-to-find-git).
+> 
+{: .callout}
 
 ![RStudio setup for git]({{ page.root }}/fig/RStudio-setup-git.png)
 
