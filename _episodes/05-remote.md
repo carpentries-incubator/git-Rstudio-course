@@ -1,23 +1,29 @@
 ---
 title: "Interact with GitHub"
-teaching: 0
-exercises: 0
+teaching: 5
+exercises: 10
 questions:
-- "Key question"
+- "How to sync your files with GitHub"
+- "How to get remote changes on your local machine?"
 objectives:
-- "Create a repository on GitHub"
-- "Understand the options about README, license and .gitignore"
+- "`Push` updates to GitHub"
+- "`Pull` updates from GitHub"
 keypoints:
-- "First key point."
+- "`Push` our code to GitHub and `pull` your code from GitHub"
 ---
 
 ## `Push` changes to GitHub
 
 In the previous episode, we explored the difference in between the local commit history and the commit history on the GitHub remote. 
 
-Rstudio gives you a warning about the status of your local commits versus those stored on GitHub. Note that if the Git pane displays *your branch is ahead of ‘origin/master’ by X commits*, this is actually providing you a warning message saying there is no backup of these commits! 
+Rstudio gives you a warning about the status of your local commits versus those stored on GitHub.  
 
 ![Push]({{ page.root }}/fig/push-rstudio1.png)
+
+> ## Rstudio note on `ahead of`
+> 
+> If the Git pane displays *your branch is ahead of ‘origin/master’ by X commits*, this is actually providing you a warning message saying there is no backup of these commits!
+{: .challenge}
 
 In order to store these changes on GitHub as well, we have to push our changes to GitHub.
 
@@ -44,29 +50,7 @@ When working from different computers or when you adapted some text online in Gi
 
 > ## Pull changes from GitHub
 > 
-> 1. Update the README file online and commit the change
+> 1. Update the `README.md` file online and commit the change
 > 2. `pull` the changes to your local machine
-> 3. Open the README.md file in Rstudio and check the update
+> 3. Open the `README.md` file in Rstudio and check if the file has changed.
 {: .challenge}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
