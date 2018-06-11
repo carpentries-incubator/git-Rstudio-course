@@ -21,5 +21,5 @@ A new project starts with a new repository, which can be setup using [GitHub.com
 
 For this first exercise, we have chosen to create a dummy repository:
 
-![Create a repo](./static/images/create-a-repo.png)
+![Create a repo]({{ page.root }}/fig/create-a-repo.png)
 (*you do not have to copy the example, choose any name :-)*)
