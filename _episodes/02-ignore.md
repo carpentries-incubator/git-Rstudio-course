@@ -37,12 +37,12 @@ Some other examples of files you probably want to ignore:
 - In any programming language, some files are _derivatives_
 
 > ## Ignore all files inside a folder
-> 
-> 1. Create a folder `images/` and add an image to the folder.
-> 2. Right click on `images/` and select `Ignore...`
+>
+> 1. Create a folder `plots/` and add an image to the folder.
+> 2. Right click on `plots/` and select `Ignore...`
 > 3. Check if the content of `.gitignore` is correctly updated and click `Save`.
-> 
-{: .challenge}
+>
+> {: .challenge}
 
 > ## Use wildcards to ignore multiple files
 > 
