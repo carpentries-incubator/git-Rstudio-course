@@ -57,9 +57,10 @@ During a project, new files are added to the project folder, which need to be ve
 Remark that we aim to have a clean directory structure in our projects with the data, scripts and output figures separated, for example:
 
 ```
-- scripts
-- plots
-- data
+|_ DCEcology
+    |_ scripts
+    |_ plots
+    |_ data
 ```
 
 By clicking the box next to a file, the file is staged (i.e. ready to be committed). Staging a new directory will stage all files in the directory. However, you can not stage empty directories!
