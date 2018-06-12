@@ -2,6 +2,8 @@
 
 Researchers working with R do write code and benefit from using version control. As `git` is not the most straightforward environment to work with for non-IT specialists, this lesson provides a first introduction to `git` inside the Rstudio environment. 
 
+This lesson has been setup initially as part of the [carpentry workshop](https://inbo.github.io/2018-06-12-bru-datacarpentry-inbo-elixir/) June 12-13, 2018 in Brussels.
+
 ## Contributing
 
 We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any questions, concerns, or experience any difficulties along the way.
