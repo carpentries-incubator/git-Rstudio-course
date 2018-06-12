@@ -5,6 +5,10 @@ title: Setup
 
 In order to start using version control in Rstudio, we have to do some configuration the first time. You only need to do this configuration once.
 
+## Github account
+
+In order to to the tutorial, you'll need a [Github account](https://github.com/).
+
 ## Installations
 
 1. [Download](https://git-scm.com/downloads) and install Git
