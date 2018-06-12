@@ -21,7 +21,7 @@ In the previous episode, a  `.gitignore` file was created, but this file itself 
 
 ![Local commit]({{ page.root }}/fig/commit-rstudio1.png)
 
-By checking the box and clicking commit, we add the file and are able to commit this addition with a commit message:
+By checking the box and clicking commit, we `add` the file and are able to `commit` this addition with a commit message:
 
 ![Local commit]({{ page.root }}/fig/commit-rstudio2.png)
 
@@ -65,12 +65,12 @@ Remark that we aim to have a clean directory structure in our projects with the 
 By clicking the box next to a file, the file is staged (i.e. ready to be committed). Staging a new directory will stage all files in the directory. However, you can not stage empty directories!
 
 > ## Add data file to the project
-> 
-> 1. Add the  `surveys.csv` file in a `/data` subdirectory
-> 2. Link to this file in the `README.md` (use relative paths), mentioning the purpose of the file
+>
+> 1. Add the  `surveys.csv` file in a new `/data` subdirectory
+> 2. Describe the purpose of this file in the `README.md`
 > 3. Commit both changes (new data file and the `README.md` adaptation) in a single commit message
 > 4. Add and commit an R script as well, but put this into the `scripts` directory.
-{: .challenge}
+>   {: .challenge}
 
 ## Create logical commits
 

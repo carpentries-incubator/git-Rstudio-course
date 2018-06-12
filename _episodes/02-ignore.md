@@ -12,7 +12,7 @@ keypoints:
 
 ## `.gitignore`
 
-When starting a new project in RStudio, it will always add a file `.gitignore` if it does not already exists (you can actually also create one in the online setup) and adds some initial files to ignore. A `.gitignore` file enlists all those files that should not be taken into account by Git (not part of the snapshot). An example is the `myprojectname.Rproj` file, as this is a user/computer specific file.
+When starting a new project in RStudio, it will always add a file `.gitignore` if it does not already exists (you can actually also create one in the online setup) and adds some initial files to ignore. A `.gitignore` file enlists all those files that should not be taken into account by Git (not part of the snapshot). An example is the `myprojectname.Rproj` file (e.g. `DCEcology`), as this is a user/computer specific file.
 
 Hence, we can ignore the `myprojectname.Rproj` file by adding the file to the `.gitignore` text-file. We can do this inside Rstudio.
 
@@ -24,6 +24,8 @@ Hence, we can ignore the `myprojectname.Rproj` file by adding the file to the `.
 > 
 > > ## Solution
 > >
+> > ![Update .gitignore]({{ page.root }}/fig/gitignore-rstudio1.png)
+> > 
 > > ![Update .gitignore]({{ page.root }}/fig/gitignore-rstudio2.png)
 > >
 > {: .solution}
