@@ -14,6 +14,7 @@ how to write new episodes.
 ## Maintainer(s)
 
 * Stijn Van Hoey
+* Paula Andrea Martinez
 
 ## Authors
 
