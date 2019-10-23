@@ -3,13 +3,13 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc", "dc", or "lc")?
-carpentry: ""
+carpentry: "incubator"
 
 # Overall title for pages.
 title: "Git using Rstudio"
 
 # Email address, no mailto:
-email: "lessons@software-carpentry.org"
+email: "team@carpentries.org"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -82,3 +82,6 @@ exclude:
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge
+
+# Remote theme
+remote_theme: carpentries/carpentries-theme
