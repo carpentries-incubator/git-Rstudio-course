@@ -32,7 +32,7 @@ When creating a repository, some elements need to be defined:
 
 1. **Repository name**: Choose something meaningful, without spaces
 2. **Description**: Short one-line sentence describing what your project is all about
-3. **Public/private**: As long as you keep your repository public, GitHub acts as a free service. Remark that some institutes do support an enterprise GitHub or private repos
+3. **Public/private**: You can decide whether the repository is going to be private or public. When public, a repository can be viewed and forked by anyone. Some functionalities (e.g., GitHub pages) may require the repository to be public. You can later change this option in the repository visibility settings
 4. **README.md**: A Readme is a crucial element of a repository, as it provides the introduction information for other users to get started
 5. **.gitignore**: This file describes which files that should not be tracked by Git. For the moment, you have not to select this and keep it on None as we will use Rstudio to provide the `.gitignore` file in [episode 2]({{ page.root }}{% link _episodes/02-ignore.md %}).
 6. **LICENSE**: for scientific work, a BSD or MIT license are probably most appropriate. Check the [choose a license website](https://choosealicense.com/) for more information on open source licenses. 
