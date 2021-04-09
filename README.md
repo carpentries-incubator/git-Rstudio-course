@@ -1,6 +1,6 @@
 # Git using Rstudio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Researchers working with R do write code and benefit from using version control. As `git` is not the most straightforward environment to work with for non-IT specialists, this lesson provides a first introduction to `git` inside the Rstudio environment. 
@@ -34,6 +34,7 @@ A list of contributors to the lesson
   <tr>
     <td align="center"><a href="https://github.com/orchid00"><img src="https://avatars.githubusercontent.com/u/9795785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paula Andrea Martinez</b></sub></a><br /><a href="#content-orchid00" title="Content">🖋</a></td>
     <td align="center"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#platform-tobyhodges" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="https://github.com/stijnvanhoey"><img src="https://avatars.githubusercontent.com/u/754862?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stijn Van Hoey</b></sub></a><br /><a href="#content-stijnvanhoey" title="Content">🖋</a></td>
   </tr>
 </table>
 
