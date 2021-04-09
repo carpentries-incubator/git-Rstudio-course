@@ -1,6 +1,6 @@
 # Git using Rstudio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Researchers working with R do write code and benefit from using version control. As `git` is not the most straightforward environment to work with for non-IT specialists, this lesson provides a first introduction to `git` inside the Rstudio environment. 
@@ -36,6 +36,7 @@ A list of contributors to the lesson
     <td align="center"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#platform-tobyhodges" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="https://github.com/stijnvanhoey"><img src="https://avatars.githubusercontent.com/u/754862?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stijn Van Hoey</b></sub></a><br /><a href="#content-stijnvanhoey" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/katrinleinweber"><img src="https://avatars.githubusercontent.com/u/9948149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Katrin Leinweber</b></sub></a><br /><a href="#example-katrinleinweber" title="Examples">💡</a> <a href="#mentoring-katrinleinweber" title="Mentoring">🧑‍🏫</a></td>
+    <td align="center"><a href="https://andreasancheztapia.netlify.app/"><img src="https://avatars.githubusercontent.com/u/4183062?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AndreaSanchezTapia</b></sub></a><br /><a href="https://github.com/carpentries-incubator/git-Rstudio-course/pulls?q=is%3Apr+reviewed-by%3AAndreaSanchezTapia" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
