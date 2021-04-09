@@ -1,4 +1,7 @@
 # Git using Rstudio
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Researchers working with R do write code and benefit from using version control. As `git` is not the most straightforward environment to work with for non-IT specialists, this lesson provides a first introduction to `git` inside the Rstudio environment. 
 
@@ -24,6 +27,19 @@ how to write new episodes.
 ## Contributors
 
 A list of contributors to the lesson
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/orchid00"><img src="https://avatars.githubusercontent.com/u/9795785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paula Andrea Martinez</b></sub></a><br /><a href="#content-orchid00" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Citation
 
