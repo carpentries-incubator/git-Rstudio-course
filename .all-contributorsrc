@@ -22,6 +22,15 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "stijnvanhoey",
+      "name": "Stijn Van Hoey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/754862?v=4",
+      "profile": "https://github.com/stijnvanhoey",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
