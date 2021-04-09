@@ -41,6 +41,15 @@
         "example",
         "mentoring"
       ]
+    },
+    {
+      "login": "AndreaSanchezTapia",
+      "name": "AndreaSanchezTapia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4183062?v=4",
+      "profile": "https://andreasancheztapia.netlify.app/",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
