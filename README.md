@@ -18,7 +18,12 @@ how to write new episodes.
 
 ## Authors
 
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
+* Stijn Van Hoey
+* Paula Andrea Martinez
+
+## Contributors
+
+A list of contributors to the lesson
 
 ## Citation
 
