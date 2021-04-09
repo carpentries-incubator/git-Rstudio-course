@@ -12,14 +12,14 @@ keypoints:
 
 ## `.gitignore`
 
-When starting a new project in RStudio, it will always add a file `.gitignore` if it does not already exists (you can actually also create one in the online setup) and adds some initial files to ignore. A `.gitignore` file enlists all those files that should not be taken into account by Git (not part of the snapshot). An example is the `myprojectname.Rproj` file (e.g. `DCEcology`), as this is a user/computer specific file.
+When starting a new project in RStudio, it will always add a file `.gitignore` if it does not already exists (you can actually create one in the online setup) and add some initial files to ignore. A `.gitignore` file enlists all those files that should not be taken into account by Git (not part of the snapshot). An example is the `.Rhistory` file, as this file will save your temporary tests, variables, etc.
 
-Hence, we can ignore the `myprojectname.Rproj` file by adding the file to the `.gitignore` text-file. We can do this inside Rstudio.
+Hence, we can ignore the `.Rhistory` file by adding the file to the `.gitignore` text-file. We can do this inside Rstudio.
 
 > ## Ignore a file
 > 
 > 1. Go to `git` pane (the tab that says Git), 
-> 2. Right click on `....Proj` and select `Ignore...`
+> 2. Right click on `.Rhistory` and select `Ignore...`
 > 3. Check if the content of `.gitignore` is correctly updated and click `Save`.
 > 
 > > ## Solution
@@ -31,10 +31,12 @@ Hence, we can ignore the `myprojectname.Rproj` file by adding the file to the `.
 > {: .solution}
 {: .challenge}
 
+The website [https://www.gitignore.io](https://www.gitignore.io) from TopTal can help you figure out what files to ignore, look at the [R example](https://www.toptal.com/developers/gitignore/api/r) `.gitignore`.
+
 Some other examples of files you probably want to ignore:
 - Sensitive information (passwords,...)!
 - Binary files. Git works very will with **text** files (any type of text), but not with binary files such as `.Rdata`.
-- Files > 50MB. Git is specifically made for **code** (e.g. R) and does not intend to track all changes in large data files (e;g. csv)
+- Files > 50MB. Git is specifically made for **code** (e.g. `.R`) and does not intend to track all changes in large data files.
 - A _temp/_ folder inside your project with 'disposable' content, e.g. `draft`, `test` or `temp`. Sometimes such a subfolder is convenient, but should not contain anything crucial for your project.
 - In any programming language, some files are _derivatives_
 
